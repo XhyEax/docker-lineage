@@ -56,7 +56,7 @@ RUN apt-get -qq update && \
       zlib1g-dev \
       && rm -rf /var/lib/apt/lists/*
 
-RUN curl https://storage.googleapis.com/git-repo-downloads/repo > /usr/local/bin/repo && \
+RUN curl https://mirrors.tuna.tsinghua.edu.cn/git/git-repo > /usr/local/bin/repo && \
       chmod a+x /usr/local/bin/repo
 
 # Copy required files

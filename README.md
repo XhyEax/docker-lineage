@@ -6,7 +6,9 @@ Simple Docker image to build Lineage 18.1
 
 2. change `cron` to `vim`
 
-3. build manually rather than right now
+3. use TUNA git-repo mirror
+
+4. build manually rather than right now
 
 ## Build Image
 ```
