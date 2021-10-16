@@ -31,7 +31,7 @@ after syncing lineage source code and device code(`device`,`kernel`and`vendor`),
 
 ```
 source build/envsetup.sh
-brunch hammerhead
+brunch hammerhead userdebug
 ```
 
 ## Credits

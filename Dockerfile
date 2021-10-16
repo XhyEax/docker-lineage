@@ -26,6 +26,7 @@ ENV CCACHE_SIZE 50G
 ENV CCACHE_EXEC /usr/bin/ccache
 
 # Possible values: 'user|userdebug|eng', default is 'userdebug'
+# the env is useless, use 'brunch devicename BUILD_VARIANT' to build
 ENV BUILD_VARIANT 'userdebug'
 
 # User identity
